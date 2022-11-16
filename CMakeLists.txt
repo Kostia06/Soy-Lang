@@ -12,22 +12,6 @@ file(GLOB HEADER src/include/*.hpp)
 
 add_executable(Soy_Lang ${HEADER} ${SOURCE} )
 
-find_package(SDL2 REQUIRED)
-find_package(SDL2_image REQUIRED)
-find_package(SDL2_ttf REQUIRED)
-
-
-include_directories(${SDL2_INCLUDE_DIRS} ${SDL2_IMAGE_INCLUDE_DIRS} ${SDL2_TTF_INCLUDE_DIRS})
-
-
-set(Boost_USE_STATIC_LIBS OFF) 
-set(Boost_USE_MULTITHREADED ON)  
-set(Boost_USE_STATIC_RUNTIME OFF) 
-FIND_PACKAGE(Boost REQUIRED COMPONENTS system) 
-
-include_directories(${Boost_INCLUDE_DIRS}) 
-
-target_link_libraries(Soy_Lang m ${Boost_LIBRARIES} ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES} ${SDL2_TTF_LIBRARIES})
 
 
 
