@@ -35,6 +35,25 @@ me = Person{
 |/= or /|Integer|
 |^= or ^|Integer|
 |%= or %|Integer|
+# Small things
+To print out things use keyword `out` and ot get input use `input`.
+The keyword `end` will print the next line, only works with `out` and `input`
+```
+age = 16
+out("Kostia", " ", age, end)
+```
+`#` helps to get number of things. For example number of items in array
+```
+num = [1,2,3,4,5,6,7]#
+
+out(num,end) ~will print out 7~
+```
+works with Integers, Strings and Arrays
+`?` helps to get type of things
+```
+type = "Hello World"?
+out(type, end) ~will printf out STRING~
+```
 # Objects
 Delcare object with `obj` following name of obejct and items that it can hold
 ```
@@ -128,26 +147,6 @@ To import items use keyword `use` and name of the file
 ```
 use "/file1.txt", "/file2.txt"
 ```
-# Small things
-To print out things use keyword `out` and ot get input use 'input'.
-The keyword `end` will print the next line, only works with `out` and `input`
-```
-age = 16
-out("Kostia", " ", age, end)
-```
-`#` helps to get number of things. For example number of items in array
-```
-num = [1,2,3,4,5,6,7]#
-
-out(num,end) ~will print out 7~
-```
-works with Integers, Strings and Arrays
-`?` helps to get type of things
-```
-type = "Hello World"?
-out(type, end) ~will printf out STRING~
-```
-
 # Modules
 Use `@` and name of the module and give arguments
 ```
