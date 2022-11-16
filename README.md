@@ -6,6 +6,14 @@ The Soy-Lang the interpreted programming language
 |time/1million actios|2.56s|1.30s|0.37s|2.43s|
 
 The langauge it self is really JavaScript syntax based langauge. The purpose of the langauge is to created small things for computer. For example, desktop cleaner, calculator and etc...
+# Setup
+1. Download Zip
+2. Unzip
+3. Get the `Soy_Lang` executable
+4. Go to the same directory as the executable
+5. `cp ./Soy_Lang /usr/local/bin/Soy_Lang`
+6. `Soy_Lang` + mode + directory of the file
+
 # Variable declaration
 Variable can be any type
 String, Integer, Array, Object, Action, Operator, Function, Argument, Module and etc...
