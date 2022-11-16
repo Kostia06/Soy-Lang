@@ -1,0 +1,3 @@
+/Users/kostia/desktop/soy_lang/build/CMakeFiles/Soy_Lang.dir
+/Users/kostia/desktop/soy_lang/build/CMakeFiles/edit_cache.dir
+/Users/kostia/desktop/soy_lang/build/CMakeFiles/rebuild_cache.dir
