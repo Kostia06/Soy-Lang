@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(Soy_Lang)
-SET(programName Slang)
+
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMakeFiles/")
 file(GLOB SOURCE src/*.cpp)
 file(GLOB HEADER src/include/*.hpp)
